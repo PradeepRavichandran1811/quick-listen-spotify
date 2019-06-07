@@ -14,7 +14,7 @@ art={'charlie puth':'6VuMaDnrHyPL1p4EHjYLi7','imagine dragons':'53XhwfbYqKCa1cC1
 client_credentials_manager = SpotifyClientCredentials(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
 @app.route('/')
 def index():
-    return render_template('home.html')
+    return render_template('index.html')
 
 @app.route("/toptracks",methods=['POST'])
 def toptracks():

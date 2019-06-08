@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+      input[type=submit] {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-decoration: bold;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+</style>
+    </head>
+   <body background="static\spotify-bg.png">
+   <center>
+         <header> <img src="static\QL.png" alt="Spotify" width="200" height="170">
+      </header>
+      <img src="static\Spotify_Logo.png" alt="Spotify" width="250" height="75">
+<br>
+       <h1 style="color:white; font-family:sans-serif">Top Tracks by Top Artists. Tune in Quickly.</h1>
+    <form action="{{ url_for('toptracks')}}" method="POST" enctype = "multipart/form-data">
+        <h2 style="color:white;" >Select the Artist Name:</h2><input type="text" name="name" size="35" >
+        <br>
+        <br>
+        <input type="submit" value="Search">
+    </form>
+
+      <br>
+
+       </center>
+   </body>
+</html>

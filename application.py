@@ -4,8 +4,8 @@ import spotipy.util as util
 from flask import Flask, render_template, request
 from spotipy.oauth2 import SpotifyClientCredentials
 app = Flask(__name__)
-CLIENT_ID = "94a53da1882a498b827a9053947aa26d"
-CLIENT_SECRET = "9e32cd0089e94694b927ebd4de46b940"
+CLIENT_ID = "your_client_id"
+CLIENT_SECRET = "your_secret_key"
 art={'charlie puth':'6VuMaDnrHyPL1p4EHjYLi7','imagine dragons':'53XhwfbYqKCa1cC15pYq2q','bruno mars':'0du5cEVh5yTK9QJze8zA0C','shawn mendes':'7n2wHs1TKAczGzO7Dd2rGr','taylor swift':'06HL4z0CvFAxyc27GXpf02','selena gomez':'0C8ZW7ezQVs4URX5aX7Kqx','maroon 5':'0aL7M6qKDacHCtUUch3AhB',
      'dua lipa':'6M2wZ9GZgrQXHCFfjv46we','post malone':'246dkjvS1zLTtiykXe5h60','john mayer':'0hEurMDQu99nJRq8pTxO14','ed sheeran':'6eUKZXaKkcviH0Ku9w2n3V',
      'khalid':'6LuN9FCkKOj5PcnpouEgny','ariana grande':'66CXWjxzNUsdJxJ2JdwvnR','jonas brothers':'7gOdHgIoIKoe4i9Tta6qdD',

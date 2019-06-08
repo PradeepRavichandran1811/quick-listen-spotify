@@ -5,7 +5,7 @@ I have used Python library spotipy to interact with Spotify.
 I Have hosted my Web Application on PythonAnywhere.com.
 
 Link to my application:
-[Quick-Listen-App](pradeepprady.pythonanywhere.com)
+[Quick-Listen-App](https://pradeepprady.pythonanywhere.com)
 
 # Quick-Listen App Home Page
 ![alt text](https://github.com/PradeepRavichandran1811/quick-listen-spotify/blob/master/Screenshots/Quick%20Listen%20Home.jpg)

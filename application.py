@@ -2,8 +2,8 @@ import spotipy
 from flask import Flask, render_template, request
 from spotipy.oauth2 import SpotifyClientCredentials
 app = Flask(__name__)
-CLIENT_ID = "94a53da1882a498b827a9053947aa26d"
-CLIENT_SECRET = "9e32cd0089e94694b927ebd4de46b940"
+CLIENT_ID = "your_client_id"
+CLIENT_SECRET = "your_client_secret"
 
 client_credentials_manager = SpotifyClientCredentials(client_id=CLIENT_ID, client_secret=CLIENT_SECRET)
 @app.route('/index')
